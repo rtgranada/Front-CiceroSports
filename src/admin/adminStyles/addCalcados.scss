@@ -1,0 +1,64 @@
+.card-body {
+    display: flex;
+    align-items: left;
+    flex-direction: column;  
+}
+
+.checkbox-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: 1px solid #E4F2FF;
+    padding: 20px 30px;
+
+    .checkbox-group-tamanho {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .badgeIcon{
+        position: relative;
+        top: -32%;
+        right: -50%;
+        width: 15px;
+        height: 15px;
+        content: "";
+        background-color: var(--primary-color);
+        color: #fff;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        font-weight: 600;
+        z-index: 10;
+    }
+
+    .checkbox-group__single {
+        width: 4rem;
+
+        .checkbox-group__single--label {
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 3rem;
+            height: 3rem;
+            cursor: pointer;
+            font-size: large;
+
+        }
+    }
+}
+

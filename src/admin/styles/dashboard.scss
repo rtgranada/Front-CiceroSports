@@ -1,0 +1,28 @@
+.revenue__box, .orders__box, .products__box, .users__box {
+    padding: 20px;
+    border-radius: 5px;
+    h5 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+    span {
+        font-weight: 600;
+        color: var(--primary-color);
+        font-size: 2rem;  
+    }
+}
+
+.revenue__box {
+    background: var(--card-bg-01);
+}
+.orders__box {
+    background: var(--card-bg-02);
+}
+.products__box {
+    background: var(--card-bg-03);
+}
+.users__box {
+    background: var(--card-bg-04);
+}

@@ -1,0 +1,28 @@
+.messagesArea {
+    width: 100%;
+    height: 40vh;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 18px;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 35px;
+        background-color: var(--primary-color);
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 35px;
+        background-color: var(--secondary-color);
+    }
+}
+
+.messageItem {
+    margin: 2px 0;
+    transition: all 0.5s;
+    
+    &:hover {
+        color: black;
+        background-color: rgb(221, 220, 220);
+    }
+}

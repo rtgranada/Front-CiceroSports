@@ -1,0 +1,25 @@
+.auth__form {
+    background: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+    .form__group {
+        input {
+            line-height: 5vh;
+            padding: 0 1vh 0 1vh;
+            width: 100%;
+            border: 1px solid var(--card-bg-02);
+            border-radius: 5px; 
+            outline: none;
+        }
+    }
+
+    .auth__btn {
+        background: #fff;
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+
+    input[type='file'] {
+        color: #fff;
+    }
+}
